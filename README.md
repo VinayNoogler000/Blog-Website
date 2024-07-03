@@ -40,7 +40,7 @@ To run this project locally:
 3. Open the `index.html` file in your web browser to view the homepage.
 
 ## Demo:
-Watch the Demo/Overview Video of the Blog Website [here]().
+Watch the Demo/Overview Video of the Blog Website [here](https://drive.google.com/file/d/1_L6haCaXYmzUhHcH2RZgmmM88RlENggW/view?usp=sharing).
 
 ## Feedback and Contributions:
 Your feedback and contributions are welcome! If you have any suggestions or improvements, please feel free to open an issue or submit a pull request, by following good code practices.
