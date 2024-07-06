@@ -315,6 +315,77 @@ main {
 }
 
 
+/*  ----------------- ARTICLE SECTION -----------------  */
+article {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding: 0px 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #E8E7E7;
+}
+
+.heading h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #2D3748;
+    line-height: 50px;
+}
+
+.heading p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2D3748;
+}
+
+.heading span {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #718096;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-content p {
+    color: #718096;
+}
+
+.main-content h4 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.main-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main-content p::selection {
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+
 /*  ----------------- FOOTER SECTION -----------------  */
 footer {
     width: 100%;
@@ -409,6 +480,18 @@ img {
         text-align: center;
     }
 
+    .content .heading {
+        gap: 10px;
+    }
+
+    .content .heading h2 {
+        font-size: 35px;
+    }
+
+    .content .heading p, .heading span {
+        font-size: 16px;
+    }
+
     footer {
         padding: 20px;
     }
@@ -478,6 +561,30 @@ img {
         font-size: 30px;
     }
 
+    .content .heading h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .content .heading {
+        padding-bottom: 20px;
+    }
+
+    .content .heading p, .heading span {
+        font-size: 14px;
+    }
+
+    .main-content {
+        gap: 10px;
+    }
+
+    .main-content h3 {
+        font-size: 20px;
+    }
+
+    .main-content h3, .main-content h4 {
+        margin-top: 15px;
+    }
 
     footer .container {
         flex-direction: column;
@@ -525,6 +632,14 @@ img {
     .card-latest .text-content {
         padding: 20px;
     }
+
+    article {
+        margin-top: 70px;
+    }
+
+    .main-content p {
+        font-size: 14px;
+    }   
 
     footer .copyright {
         font-size: 14px;
